@@ -1,0 +1,53 @@
+
+
+
+
+/*ESCALA DE GRISES CATALOGO*/
+
+.img-colegio:hover{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	transition: 0.2s;
+}
+.img-colegio{
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.img-papeleria:hover{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	transition: 0.2s;
+}
+.img-papeleria{
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.img-eventos:hover{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	transition: 0.2s;
+}
+.img-eventos{
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.img-especiales:hover{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	transition: 0.2s;
+}
+.img-especiales{
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+a{
+	color: #a3a3a3 !important;
+}
+a:hover{
+	font-weight: bold;
+	transition: 0.2s;
+}

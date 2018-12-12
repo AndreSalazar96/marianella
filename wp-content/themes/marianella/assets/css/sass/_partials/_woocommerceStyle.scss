@@ -1,0 +1,71 @@
+/*Woocommerce style*/
+
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message {
+    background: #333 !important;
+}
+
+button.button{
+	border-radius: 0 !important;
+    color: #000 !important;
+}
+
+input.button{
+	  border-radius: 0 !important;
+    border-color: #000 !important;
+    color: #000 !important;
+	
+}
+
+a.woocommerce-remove-coupon{
+	 color: #ff0000!important;
+}
+
+div.summary.entry-summary{
+	margin-top: 40px !important;
+}
+
+.scroll
+{
+     overflow-x:scroll;
+     overflow-y:hidden;
+}
+
+nav.woocommerce-breadcrumb{
+	display: none !important;
+}
+
+.summary.entry-summary{
+	width: 80% !important;
+}
+
+/* BOTON DE CHECOUT PRODUCT LOOP*/
+
+.button.checkout.wc-forward{
+    width: 230px !important;
+}
+
+/* Terminos y condiciones*/
+
+span.woocommerce-terms-and-conditions-checkbox-text{
+  font-size: 19px;
+  
+}
+
+/*TEXTO BLANCO*/
+.woocommerce-error, .woocommerce-info, .woocommerce-message{
+      
+  color: #000!important;
+  
+} 
+
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message {
+  background: #a9a9a9!important;
+}
+
+footer#main-footer{
+  display: none;
+}
+
+div.fpd-navigation.fpd-primary-bg-color > div:before{
+  display: none; 
+}  

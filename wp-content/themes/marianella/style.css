@@ -1,0 +1,267 @@
+/*
+ Theme Name:     marianella
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+/* =Theme customization starts here
+------------------------------------------------------- */
+/* =Theme customization starts here
+------------------------------------------------------- */
+/* line 5, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, assets/css/sass/_partials/_body.scss */
+body {
+  overflow-x: hidden;
+}
+
+/*BOTON DE VOLVER ARRIBA*/
+/* line 3, assets/css/sass/_partials/_buttonUp.scss */
+span.et_pb_scroll_top.et-pb-icon.et-visible {
+  background: #000000d1;
+  border-radius: 100%;
+}
+
+/*CONTACTO INPUTS*/
+/* line 4, assets/css/sass/_partials/_contactForm.scss */
+input#et_pb_contact_name_1.input {
+  background-color: #f1f1f100;
+}
+
+/* line 8, assets/css/sass/_partials/_contactForm.scss */
+input#et_pb_contact_email_1.input {
+  background-color: #f1f1f100;
+}
+
+/* line 12, assets/css/sass/_partials/_contactForm.scss */
+textarea#et_pb_contact_message_1.et_pb_contact_message.input {
+  background-color: #f1f1f100;
+}
+
+/*Woocommerce style*/
+/* line 3, assets/css/sass/_partials/_woocommerceStyle.scss */
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message {
+  background: #333 !important;
+}
+
+/* line 7, assets/css/sass/_partials/_woocommerceStyle.scss */
+button.button {
+  border-radius: 0 !important;
+  color: #000 !important;
+}
+
+/* line 12, assets/css/sass/_partials/_woocommerceStyle.scss */
+input.button {
+  border-radius: 0 !important;
+  border-color: #000 !important;
+  color: #000 !important;
+}
+
+/* line 19, assets/css/sass/_partials/_woocommerceStyle.scss */
+a.woocommerce-remove-coupon {
+  color: #ff0000 !important;
+}
+
+/* line 23, assets/css/sass/_partials/_woocommerceStyle.scss */
+div.summary.entry-summary {
+  margin-top: 40px !important;
+}
+
+/* line 27, assets/css/sass/_partials/_woocommerceStyle.scss */
+.scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+/* line 33, assets/css/sass/_partials/_woocommerceStyle.scss */
+nav.woocommerce-breadcrumb {
+  display: none !important;
+}
+
+/* line 37, assets/css/sass/_partials/_woocommerceStyle.scss */
+.summary.entry-summary {
+  width: 80% !important;
+}
+
+/* BOTON DE CHECOUT PRODUCT LOOP*/
+/* line 43, assets/css/sass/_partials/_woocommerceStyle.scss */
+.button.checkout.wc-forward {
+  width: 230px !important;
+}
+
+/* Terminos y condiciones*/
+/* line 49, assets/css/sass/_partials/_woocommerceStyle.scss */
+span.woocommerce-terms-and-conditions-checkbox-text {
+  font-size: 19px;
+}
+
+/*TEXTO BLANCO*/
+/* line 55, assets/css/sass/_partials/_woocommerceStyle.scss */
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+  color: #000 !important;
+}
+
+/* line 61, assets/css/sass/_partials/_woocommerceStyle.scss */
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message {
+  background: #a9a9a9 !important;
+}
+
+/* line 65, assets/css/sass/_partials/_woocommerceStyle.scss */
+footer#main-footer {
+  display: none;
+}
+
+/* line 69, assets/css/sass/_partials/_woocommerceStyle.scss */
+div.fpd-navigation.fpd-primary-bg-color > div:before {
+  display: none;
+}
+
+/*ESCALA DE GRISES CATALOGO*/
+/* line 7, assets/css/sass/_partials/_effect.scss */
+.img-colegio:hover {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+
+/* line 12, assets/css/sass/_partials/_effect.scss */
+.img-colegio {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* line 17, assets/css/sass/_partials/_effect.scss */
+.img-papeleria:hover {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+
+/* line 22, assets/css/sass/_partials/_effect.scss */
+.img-papeleria {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* line 27, assets/css/sass/_partials/_effect.scss */
+.img-eventos:hover {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+
+/* line 32, assets/css/sass/_partials/_effect.scss */
+.img-eventos {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* line 37, assets/css/sass/_partials/_effect.scss */
+.img-especiales:hover {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+
+/* line 42, assets/css/sass/_partials/_effect.scss */
+.img-especiales {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* line 47, assets/css/sass/_partials/_effect.scss */
+a {
+  color: #a3a3a3 !important;
+}
+
+/* line 50, assets/css/sass/_partials/_effect.scss */
+a:hover {
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+/*FOOTER WORDPRESS DEFAUL*/
+/* line 3, assets/css/sass/_partials/_footer.scss */
+#footer-bottom {
+  display: none;
+}
+
+/*-----SLIDER_BANNER---------*/
+/* line 4, assets/css/sass/_partials/_slider.scss */
+.et_pb_slide_description, .et_pb_slider_fullwidth_off .et_pb_slide_description {
+  width: auto;
+  margin: auto;
+  height: 100vh;
+}
+
+/*---------------------------*/

@@ -1,0 +1,33 @@
+/*
+ Theme Name:     marianella
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+
+@import "compass";
+@import "compass/reset"; 
+ 
+//Here we important our partials
+ 
+@import "_partials/body"; 
+@import "_partials/section";   
+@import "_partials/buttonUp";  
+@import "_partials/contactForm";
+@import "_partials/woocommerceStyle";
+@import "_partials/effect";  
+@import "_partials/footer";  
+@import "_partials/slider";  
+
